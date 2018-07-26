@@ -1,0 +1,23 @@
+{
+    "name": "quoma/config-module",
+    "type": "yii2-module",
+    "description": "Extension de Configuracion",
+    "keywords": ["yii2", "config"],
+    "license": "quoma",
+    "authors": [
+        {
+            "name": "Quoma",
+            "email": "info@quoma.com.ar"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "quoma\\modules\\config\\": "src/"
+        }
+    }
+}
